@@ -1,0 +1,274 @@
+.hero-section{
+    background-image: url('../../Assets/bg_2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-contant{
+    background-color: rgba(0, 0, 0, 0.479);
+    padding: 20px;
+    font-size: larger;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+.homeicons{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px;
+    align-items: center;
+}
+.vegi-contant img{
+    width: 340px;
+    height: 250px;
+    border-radius: 30px;
+    padding: 20px;
+
+}
+.vegi-contant{
+    position: relative;
+}
+.vegi-contant p{
+    position: absolute;
+    bottom: 26px;
+    padding:0 20px ;
+    color: white;
+    border-radius: 10px;
+    left: 25px;
+    background-color:#82ae46 ;
+    font-size: 30px;
+}
+.vegi-txt{
+    position: absolute;
+    padding: 50px;
+    text-align: center;
+    font-size:x-large; 
+}
+.homevegii{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vegi-center img{
+    height: 550px;
+}
+.product-txt{
+    text-align: center;
+    padding: 20px;
+}
+.product-txt h3{
+    padding: 5px;
+    font-size: 25px;
+}
+.product-txt h1{
+    padding: 8px;
+    font-weight: 700;
+    font-size: 35px;
+}
+.product-txt p{
+    font-weight: 100;
+    padding: 5px;
+    font-size: 19px;
+}
+.friutcart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 10px;
+}
+.home-deal{
+    background-image: url(../../Assets/bg_3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deal-summa{
+    width: 50%;
+}
+.deal-txt{
+    padding: 20px;
+    margin: 30px;
+    width: 50%;
+}
+.deal-txt h3{
+    color: #82ae46;
+    padding: 10px;
+    font-size: 32px;
+}
+.deal-txt h2{
+    color: #82ae46;
+    padding: 10px;
+    font-size: 38px;
+}
+.deal-txt h4{
+    color: #82ae46;
+    padding: 30px;
+    font-size: 18px;
+}
+.deal-txt h1{
+    /* color: #82ae46; */
+    padding: 10px;
+    font-size: 45px;
+}
+.deal-txt p{
+    /* color: #82ae46; */
+    padding: 10px;
+    font-size: 20px;
+} 
+.testi-txt h3{
+    color: #82ae46;
+    font-size: 30px;
+    padding: 15px; 
+}
+.testi-txt h1{
+    /* color: #82ae46; */
+    font-size: 45px;
+    padding: 15px; 
+}
+.testi-txt p{
+    /* color: #82ae46; */
+    font-size: 20px;
+    padding: 15px; 
+}
+.testi-txt{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    
+}
+.testi-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.testi-contant{
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+.testi-contant img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.testi-contant p {
+    padding: 30px;
+    border-left: #82ae46 solid 1px;
+    font-weight: 100;
+    font-size: 15px;
+    /* width: 250px; */
+}
+.testi-contant h4,h5{
+        font-size: x-large;
+        padding: 10px;
+}
+.partner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-top:1px solid rgb(190, 233, 184) ;
+    margin: 30px ;
+
+}
+.partner img{
+    width: 200px;
+    padding: 15px;
+    margin: 15px;
+}
+.subscribe{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #d5dec7;
+    padding: 20px;
+}
+.sub-left{
+    padding: 20px;
+    font-size: larger;
+    line-height: 40px;
+    text-align: center;
+}
+.sub-right{
+    display: flex;
+    padding: 20px;
+}
+.sub-right input{
+    width: 250px;
+    
+}
+@media (max-width: 768px){
+    .homeicons {
+        display: block;
+    }
+    .homevegii{
+        display: block;
+       
+    }
+    .homevegii img{
+        width: 270px;
+    }
+    .deal-summa {
+        width: 50%;
+        display: none;
+    }       
+    .deal-txt h3 {
+        font-size: 17px;
+    }
+
+    .deal-txt h2 {
+        font-size: 20px;
+    }
+
+    .deal-txt h4 {
+        font-size: 12px;
+    }
+
+    .deal-txt h1 {
+        font-size: 25px;
+    }
+    .deal-txt p {
+        font-size: 10px;
+    }
+    .testi-slide{
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+    .partner{
+        display: block;
+     
+    }
+    .subscribe{
+        display: block;
+        padding: 0;
+    }
+    .testi-contant{
+        padding: 0;
+
+    }
+    .sub-right{
+        display: block;
+        padding: 20px;
+        text-align: center;
+    }
+    .sub-right input {
+        width: inherit;
+      
+
+    }
+}

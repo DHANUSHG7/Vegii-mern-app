@@ -1,0 +1,128 @@
+.btn{
+    padding: 8px 25px;
+    font-size: 24px;
+    margin: 10px;
+    background-color: #93e520;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 19px;
+}
+.btn:hover{
+    background-color:rgb(5, 94, 44);
+    color: white;
+    border: #82ae46 2px solid;
+}
+
+.iconsection{
+    padding: 50px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.iconsection h3{
+    padding: 5px;
+    font-weight: 600;
+
+}
+.icon{
+    padding: 35px;
+    background-color: rgb(168, 102, 113) ;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    border-radius: 50%;
+   
+}
+.icon:hover{
+    background-color: #82ae46;
+    color: white;
+}
+.fruit-contant{
+    width: 250px;
+    height: 310px;
+    padding: 10px;
+    margin: 2rem;
+    border: 0.2px solid rgb(165, 230, 172);
+}
+.fruit-img img{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+.fruit-contant h5{
+    padding:0 10px;
+    font-size: 22px;
+}
+.f-icon i{
+    padding: 5px;
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    font-size: 20px;
+    margin: 5px;
+   display: none;
+}
+    .bi-list{
+    background-color: #82ae46;
+    padding: 10px;
+    color: white;
+    }
+    .bi-chat-heart-fill{
+    background-color: #82ae46;
+    padding: 10px;
+    color: white;
+    }
+    .bi-cart-check-fill{
+    background-color: #82ae46;
+    padding: 10px;
+    color: white;
+    }
+
+
+.fruit-contant:hover .f-rate{
+    display: none;
+    transition: all 2s ease-in-out;
+}
+.fruit-contant:hover{
+ .f-icon i{
+    display: inline;
+ }
+ .fruit-img img{
+     height: 210px;
+     transition: all 0.3s ease-in-out;
+     width: 210px;
+ }
+}
+
+.breadcome{
+    background-image: url(../../Assets/bg_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+.bread-txt{
+    text-align: center;
+    padding: 50px;
+
+}
+.bread-txt p a{
+    text-decoration: none;
+    /* font-size: x-large; */
+    color: black;
+    padding: 20px;
+    font-weight: 700;
+}
+.bread-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-size: 35px;
+}
+.bread-txt h1{
+    font-size: 45px;
+    color: white;
+}
