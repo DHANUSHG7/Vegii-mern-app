@@ -41,7 +41,9 @@ if (!info.Uemail.includes('@')) {
         setErr({})}
     try{
       // await axios.post(process.env.backendurl,info);
-      await axios.post("http://localhost:7070/query",info);
+      // await axios.post("http://localhost:7070/query",info);
+      await axios.post("https://vegii-mern-app-server.vercel.app/query",info);
+
       
     }
     catch(err){
