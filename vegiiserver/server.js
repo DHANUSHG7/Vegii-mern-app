@@ -22,10 +22,10 @@ mongoose
   });
 // backend
 app.get("/", async (req, res) => {
-  // res.write("Hi front end i'm ready to receive data..😂😂😎");
-  // res.end();
-  const usersinfo = await dbschema.find();
-  res.json(usersinfo);
+  res.write("Hi front end i'm ready to receive data..😂😂😎");
+  res.end();
+  // const usersinfo = await dbschema.find();
+  // res.json(usersinfo);
 });
 app.post("/query", async (req, res) => {
   try {
