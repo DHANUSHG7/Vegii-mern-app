@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 
-const { default: mongoose } = require("mongoose");
+const { mongoose } = require("mongoose");
 const dbschema = require("./database/db");
 const PORT = 7070;
 // require('dotenv').configDotenv;
