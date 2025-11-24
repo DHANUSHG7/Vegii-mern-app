@@ -42,7 +42,7 @@ if (!info.Uemail.includes('@')) {
     try{
       // await axios.post(process.env.backendurl,info);
       // await axios.post("http://localhost:7070/query",info);
-      await axios.post("https://vegii-mern-app-server.vercel.app/query",info);
+      await axios.post("https://vegii-mern-app-server-cgylevcqy-dhanushs-projects-9cb2b9f9.vercel.app//query",info);
 
       
     }

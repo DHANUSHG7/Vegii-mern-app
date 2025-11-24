@@ -10,7 +10,7 @@ require("dotenv").config();
 const app = express();
 app.use(cors());
 app.use(express.json());
-// Database
+// Database 
 mongoose
   .connect(process.env.mongolocaldb, {
     useNewUrlParser: true,
